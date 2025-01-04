@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Font-2';
+    src: url('fonts/font2.otf');
+
+}
+
+@font-face {
+    font-family: 'font-1';
+    src: url('fonts/Avigea.ttf');
+
+}
+
+
+#cocom {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.video-container {
+    position: relative;
+    width: 500px; /* Example width */
+    height: 350px; /* Example height */
+    background-color: #f0f0f0;
+    border: 3px solid #000; /* Example border */
+    overflow: hidden;
+    border-radius: 12px; /* Rounded corners */
+}
+
+.hover-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    position: absolute;
+}
+
+
+.video-container:hover .hover-video {
+    opacity: 1;
+    transform: scale(1.02); /* Slight zoom effect */
+}
+
+@keyframes playVideo {
+    from {
+        opacity: 0.7;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#good {
+    font-family: font-2;
+    text-align: center;
+    margin-top: -2vw;
+}
+
+h2 {
+    text-align: center;
+    font-family: font-1;
+}
+
+p {
+    text-align: center;
+    font-family: font-1;
+}
+
+
+h1{
+    text-align: center;
+    font-family: font-1;
+}
+
+body{
+    background-color: rgba(88, 44, 44, 0.438);
+}
+
+#tmrw{
+    margin-top: -5vw;
+}
+
+#dont{
+    border: 2px rgb(131, 131, 255) solid;
+    margin-right: 73.29vw;
+}
+
+#did{
+    width: 25vw;
+}
+
+#it{
+    margin-left: 72vw;
+    margin-top: -40vw;
+    border: 2px rgb(131, 131, 255) solid;
+    margin-right: 1.1vw;
+}

@@ -1,0 +1,116 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Moon</title>
+    <link rel="stylesheet" href="moon.css">
+</head>
+
+<body>
+    <div style="background-color: #a76d4d;"> <img src="ahaa.png" alt="saturn" id="cocom"></div>
+        <h1 id="good">Moon</h1>
+    </div>
+    <div class="video-container">
+        <video class="hover-video" loop muted>
+            <source src="skin.mp4" type="video/mp4" id="vid">
+        </video>
+    </div>
+    <br>
+    <h1 id="tmrw">The Moon: Earth's Silent Companion</h1>
+    <p>
+        The Moon, Earth's only natural satellite, has fascinated humanity for millennia. Its shimmering presence in the<br>
+        night sky, its gravitational influence, and its role in shaping life on Earth make it a subject of profound<br>
+        scientific and cultural significance. From ancient myths to space exploration, the Moon has been an enduring<br>
+        symbol of mystery and wonder, and its impact on human history is immeasurable.<br><br>
+    </p>
+    <h2>Physical Characteristics</h2>
+    <p>
+        The Moon is the fifth largest natural satellite in our solar system, measuring about 3,474 kilometers in<br>
+        diameter. It is roughly one-quarter the size of Earth, making it the largest satellite relative to its parent<br>
+        planet. The surface of the Moon is marked by craters, valleys, and plains, remnants of billions of years of<br>
+        cosmic bombardment. The Moon's lack of atmosphere means that there is no weather or erosion to alter its<br>
+        surface, leaving its features frozen in time.<br><br>
+        The Moon's surface is composed of a mixture of rock, dust, and minerals, including a type of rock called basalt,<br>
+        which is formed from volcanic activity, and a lighter rock called anorthosite. The Moon’s lack of atmosphere<br>
+        also means that there is no air to scatter sunlight, so the shadows on the lunar surface are deep and stark, and<br>
+        the sky above is completely black.<br><br>
+    </p>
+    <h2>The Moon's Role in Earth's Life</h2>
+    <p>
+        The Moon's gravitational pull has a significant impact on Earth. The most notable effect is the tides. The<br>
+        Moon's gravity causes the Earth’s oceans to bulge, resulting in high and low tides. These tidal movements have<br>
+        influenced the evolution of marine life and the development of coastal ecosystems. The gravitational interaction<br>
+        between the Earth and the Moon also gradually slows the Earth's rotation, lengthening our days over<br>
+        time.<br><br>
+        The Moon's presence also stabilizes the Earth's axial tilt, preventing extreme variations in the planet's<br>
+        climate. Without the Moon, Earth's tilt could vary wildly, leading to severe climate changes that could disrupt<br>
+        life on Earth. Thus, the Moon plays an essential role in maintaining the stability of Earth's<br>
+        environment.<br><br>
+    </p>
+    <h2>Cultural Significance</h2>
+    <p>
+        Throughout history, the Moon has been a central figure in human culture, myth, and religion. Ancient<br>
+        civilizations viewed the Moon as a god or goddess, attributing its phases to various myths and legends. In many<br>
+        cultures, the Moon was associated with fertility, harvest cycles, and the passage of time. Its cycles provided a<br>
+        natural way of measuring months, which is why many early calendars were lunar-based.<br><br>
+        In modern times, the Moon has continued to inspire poets, artists, and philosophers. Its pale light has been a<br>
+        muse for countless works of art, literature, and music. The idea of the Moon as a symbol of mystery and<br>
+        unattainable beauty has transcended centuries, fostering a sense of wonder and curiosity in the human<br>
+        imagination.<br><br>
+    </p>
+    <h2>The Space Race and Lunar Exploration</h2>
+    <p>
+        In the 20th century, the Moon became the focal point of one of humanity’s greatest scientific endeavors: the<br>
+        space race. The United States and the Soviet Union competed fiercely to land the first humans on the Moon,<br>
+        culminating in the Apollo 11 mission in 1969. Astronauts Neil Armstrong and Buzz Aldrin became the first humans<br>
+        to walk on the Moon, with Armstrong’s famous words, "That's one small step for [a] man, one giant leap for<br>
+        mankind," forever etched in history.<br><br>
+        The Apollo missions provided valuable scientific data about the Moon, including samples of lunar soil and rock<br>
+        that have helped scientists understand the Moon’s origin and evolution. The Moon's barren landscape, however,<br>
+        also raised new questions about its formation. The leading theory suggests that the Moon was formed after a<br>
+        Mars-sized object collided with the early Earth, ejecting material that eventually coalesced to form the<br>
+        Moon.<br><br>
+    </p>
+    <h2>The Future of Lunar Exploration</h2>
+    <p>
+        As technology advances, the Moon is once again becoming the focus of scientific exploration. NASA's Artemis<br>
+        program, for instance, aims to return humans to the Moon by 2025, with the goal of establishing a sustainable<br>
+        presence on the lunar surface. This mission intends to use the Moon as a stepping stone for future human<br>
+        exploration of Mars and beyond. The Moon’s resources, such as water ice at the poles, could be crucial for<br>
+        supporting long-term lunar colonies and serving as fuel for further space missions.<br><br>
+        Additionally, the Moon may hold the key to understanding the early solar system. By studying its surface and<br>
+        geological features, scientists hope to learn more about the formation of Earth and other celestial bodies.<br>
+        There is also the potential for mining valuable materials from the Moon, such as helium-3, which could be used<br>
+        in nuclear fusion and provide a new source of energy.<br><br>
+    </p>
+    <h2>Conclusion</h2>
+    <p>
+        The Moon remains one of Earth's most compelling and enigmatic companions. Its physical features, its effects on<br>
+        Earth’s environment, and its cultural significance are a testament to its enduring influence on humanity. As we<br>
+        look to the future, the Moon will continue to inspire new generations of explorers, scientists, and dreamers,<br>
+        pushing the boundaries of what we know and shaping the course of space exploration. Through our journey to the<br>
+        Moon, we not only seek to understand our celestial neighbor but also to learn more about ourselves and our place<br>
+        in the vast universe.<br><br>
+    </p>
+    <div id="dont">
+    <img src="lit.jpg" alt="">
+    <p>This picture on top of the text is the best capture i have ever gotten on my telescope or binoculars</p>
+    </div>
+    <div id="it">
+    <img src="fist moon.jpg" alt="moon" id="did">
+    <p>This was my first picture of the moon with my binoculars, you can see i didnt know how to edit it so it was raw and way to bright</p>
+    </div>
+</body>
+<script>
+    const video = document.querySelector('.hover-video');
+
+    document.querySelector('.video-container').addEventListener('mouseenter', () => {
+        video.play();
+    });
+
+    document.querySelector('.video-container').addEventListener('mouseleave', () => {
+        video.pause();
+    });
+</script>
+
+</html>

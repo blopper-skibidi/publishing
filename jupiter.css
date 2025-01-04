@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Font-2';
+    src: url('fonts/font2.otf');
+
+}
+
+@font-face {
+    font-family: 'font-1';
+    src: url('fonts/Avigea.ttf');
+
+}
+
+
+body {
+    background-color: rgb(248, 247, 151);
+}
+
+.video-container {
+    position: relative;
+    width: 500px; /* Example width */
+    height: 350px; /* Example height */
+    background-color: #f0f0f0;
+    border: 3px solid #000; /* Example border */
+    overflow: hidden;
+    border-radius: 12px; /* Rounded corners */
+}
+
+.hover-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    position: absolute;
+}
+
+
+.video-container:hover .hover-video {
+    opacity: 1;
+    transform: scale(1.02); /* Slight zoom effect */
+}
+
+@keyframes playVideo {
+    from {
+        opacity: 0.7;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+p {
+    font-family: font-1;
+    text-align: center;
+}
+
+ul {
+    font-family: font-1;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-family: font-1;
+}
+
+h2 {
+    text-align: center;
+    font-family: font-1;
+    margin-top: -20vw;
+}
+
+#both {
+    width: 30vw;
+    border: 4px #ff7b7b solid;
+}
+
+#hot {
+    margin-left: 40vw;
+}
+
+#mox {
+    margin-top: -40vw;
+    color: #2f374f;
+}
+
+#peace {
+    width: 30vw;
+    height: 40vw;
+    margin-left: 65vw;
+    margin-top: -6vw;
+    border: 4px #ff7b7b solid;
+}
+
+
+#cocom {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+
+
+#stolen {
+    margin-left: 47vw;
+    font-family: font-2;
+    margin-top: -2vw;
+}

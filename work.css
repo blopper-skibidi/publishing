@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'Font-2';
+    src: url('fonts/font2.otf');
+
+}
+
+@font-face {
+    font-family: 'font-1';
+    src: url('fonts/Avigea.ttf');
+
+}
+
+#cocom {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+#better {
+    margin-top: 0vw;
+    margin-left: 4vw;
+}
+
+#board {
+    border: 4px rgb(247, 225, 106) solid;
+    background-color: blanchedalmond;
+    margin-right: 72vw;
+}
+
+body{
+
+}
+
+.video-container {
+    position: relative;
+    width: 600px;
+    /* Example width */
+    height: 350px;
+    /* Example height */
+    background-color: #f0f0f0;
+    border: 3px solid #000;
+    /* Example border */
+    overflow: hidden;
+    border-radius: 12px;
+    /* Rounded corners */
+}
+
+.hover-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    position: absolute;
+}
+
+
+.video-container:hover .hover-video {
+    opacity: 1;
+    transform: scale(1.02);
+    /* Slight zoom effect */
+}
+
+@keyframes playVideo {
+    from {
+        opacity: 0.7;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.custom-video-container {
+    position: relative;
+    width: 600px;
+    /* Example width */
+    height: 350px;
+    /* Example height */
+    background-color: #f0f0f0;
+    border: 3px solid #000;
+    /* Example border */
+    overflow: hidden;
+    border-radius: 12px;
+    /* Rounded corners */
+    margin-left: 33vw;
+    margin-top: -19vw;
+}
+
+#custom-hover-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    position: absolute;
+}
+
+.custom-video-container:hover #custom-hover-video {
+    opacity: 1;
+    transform: scale(1.02);
+    /* Slight zoom effect */
+}
+
+.new-video-container {
+    position: relative;
+    width: 600px;
+    /* Example width */
+    height: 350px;
+    /* Example height */
+    background-color: #f0f0f0;
+    border: 3px solid #000;
+    /* Example border */
+    overflow: hidden;
+    border-radius: 12px;
+    /* Rounded corners */
+    margin-left: 66vw;
+    margin-top: -19vw;
+}
+
+#new-hover-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    position: absolute;
+}
+
+
+.new-video-container:hover #new-hover-video {
+    opacity: 1;
+    transform: scale(1.02);
+    /* Slight zoom effect */
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+#t{
+    background-color: #000;
+    height: 50vw;
+    margin-top: 20vw;
+}
+
+#open{
+    margin-top: 0vw;
+    width: 60vw;
+    height: 40vw;
+    margin-left: 20vw;
+}
+
+#year{
+   color: #f0f0f0;
+}
+
+#ki{
+    background-color: grey;
+    margin-left: 20vw;
+    margin-right: 18.3vw;
+}
+
+#kin{
+    background-color: grey;
+    margin-left: 20vw;
+    margin-right: 18.3vw;
+}
+
+#years{
+    color: #f0f0f0;
+ }

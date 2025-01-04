@@ -1,0 +1,95 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="work.css">
+    <link rel="shortcut icon" type="image/png" href="White and Black Simple Planet Logo.png">
+</head>
+
+<body>
+
+    <div style="background-color: #a76d4d;"> <img src="ahaa.png" alt="saturn" id="cocom"></div>
+    <hr>
+    </div>
+
+    <a href="jupiter.html">
+        <div class="video-container">
+            <video class="hover-video" loop muted>
+                <source src="lawn.mp4" type="video/mp4" id="vid">
+            </video>
+        </div>
+    </a>
+    <a href="moon.html">
+        <div class="custom-video-container">
+            <video id="custom-hover-video" loop muted>
+                <source src="lighte.mp4" type="video/mp4">
+            </video>
+        </div>
+    </a>
+
+    <a href="pleidas.html">
+        <div class="new-video-container">
+            <video id="new-hover-video" loop muted>
+                <source src="Pleiades - Opera 2024-12-27 18-11-53.mp4" type="video/mp4">
+            </video>
+        </div>
+    </a>
+    <div id="t">
+        <img src="heal.jpg" alt="" id="open">
+        <div id="ki">
+            <p style="text-align: center; font-family: font-1;" id="year">This is my telescope the big one in the middle
+                it
+                is called the Skywatcher Heritage 130P Dobsonian <br> and it has 2 lenses called the super 25 and the
+                super
+                10, <br>the 10 zooms in the most like i would use it for the moon and planets, and the super <br> 25 is
+                used
+                for star clusters so i dont zoom into them alot and <br> miss alot of important stars,(on the left side
+                you can see a big lens and a small one, the big on is the super 25 and the other on is the super 10)
+            </p>
+        </div>
+        <div id="kin">
+            <p style="text-align: center; font-family: font-1;" id="years">
+             my binoculars are the one on the left and they are 12x50 
+            </p>
+        </div>
+    </div>
+</body>
+
+
+<script>
+    const video = document.querySelector('.hover-video');
+
+    document.querySelector('.video-container').addEventListener('mouseenter', () => {
+        video.play();
+    });
+
+    document.querySelector('.video-container').addEventListener('mouseleave', () => {
+        video.pause();
+    });
+
+    const customVideo = document.getElementById('custom-hover-video');
+
+    document.querySelector('.custom-video-container').addEventListener('mouseenter', () => {
+        customVideo.play();
+    });
+
+    document.querySelector('.custom-video-container').addEventListener('mouseleave', () => {
+        customVideo.pause();
+    });
+
+    const newVideo = document.getElementById('new-hover-video');
+
+    document.querySelector('.new-video-container').addEventListener('mouseenter', () => {
+        newVideo.play();
+    });
+
+    document.querySelector('.new-video-container').addEventListener('mouseleave', () => {
+        newVideo.pause();
+    });
+
+</script>
+
+
+</html>

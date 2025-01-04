@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Font-2';
+    src: url('fonts/font2.otf');
+
+}
+
+@font-face {
+    font-family: 'font-1';
+    src: url('fonts/Avigea.ttf');
+
+}
+
+#cocom {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+#hert {
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 1wvw;
+}
+
+#id-1 {
+    font-family: Font-2;
+    text-decoration: none;
+    color: #4b3d3d;
+    font-size: large;
+    margin-left: 60vw;
+}
+
+#heli {
+    width: 10vw;
+    height: auto;
+}
+
+#cloc {
+    opacity: 0.35;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    bottom: 30vw;
+    left: 30vw;
+}
+
+body {
+    background-color: #f2e1c1;
+}
+
+#brainfreeze {
+    font-family: font-2;
+    font-size: 3vw;
+    color: #2c2c2c;
+}
+
+
+.typo {
+    position: absolute;
+    left: 10vw;
+    top: 10vw;
+}
+
+#tepo {
+    font-family: font-1;
+    color: #2c2c2c;
+}
+
+#wondert {
+    text-decoration: none;
+    color: #2c2c2c;
+    font-family: font-2;
+    text-align: center;
+}
+
+#wondert:hover {
+    transition: 1.5s;
+    opacity: 0.5;
+
+}
+
+#dea {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    position: relative;
+}
+
+#built-dif {
+    width: 100%;;
+}
+
+#preview{
+    background-color: #55342B;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    
+}
+
+#hi{
+    text-align: center;
+    font-family: font-2;
+    font-size: larger;
+}
+
+#pleidas{
+    width: 10vw;
+}
+
+
+
