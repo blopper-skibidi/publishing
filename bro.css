@@ -16,104 +16,155 @@
     display: flex;
 }
 
-#hert {
+#better {
+    margin-top: 0vw;
     margin-left: 4vw;
-    margin-right: 4vw;
-    margin-top: 1wvw;
 }
 
-#id-1 {
-    font-family: Font-2;
-    text-decoration: none;
-    color: #4b3d3d;
-    font-size: large;
-    margin-left: 60vw;
+#board {
+    border: 4px rgb(247, 225, 106) solid;
+    background-color: blanchedalmond;
+    margin-right: 72vw;
 }
 
-#heli {
-    width: 10vw;
-    height: auto;
-}
-
-#cloc {
-    opacity: 0.35;
-    width: 100%;
-    height: auto;
+.video-container {
     position: relative;
+    width: 600px;
+    height: 350px;
+    background-color: #f0f0f0;
+    border: 3px solid #000;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-right: 33vw; 
 }
 
-.text {
-    position: absolute;
-    bottom: 30vw;
-    left: 30vw;
-}
-
-body {
-    background-color: #f2e1c1;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image: url(Untitled\ design\ \(1\).png);
-}
-
-#brainfreeze {
-    font-family: font-2;
-    font-size: 3vw;
-    color: #2c2c2c;
-}
-
-
-.typo {
-    position: absolute;
-    left: 10vw;
-    top: 10vw;
-}
-
-#tepo {
-    font-family: font-1;
-    color: #2c2c2c;
-}
-
-#wondert {
-    text-decoration: none;
-    color: #2c2c2c;
-    font-family: font-2;
-    text-align: center;
-}
-
-#wondert:hover {
-    transition: 1.5s;
-    opacity: 0.5;
-
-}
-
-#dea {
+.hover-video {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     opacity: 0.5;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    position: absolute;
+}
+
+#container{
+    margin-left: 33%        ;
+}
+
+
+.video-container:hover .hover-video {
+    opacity: 1;
+    transform: scale(1.02);
+    /* Slight zoom effect */
+}
+
+@keyframes playVideo {
+    from {
+        opacity: 0.7;
+    }
+
+    to {
+        opacity: 1;
+    }
+    
+}
+
+.custom-video-container {
     position: relative;
+    width: 600px;
+    /* Example width */
+    height: 350px;
+    /* Example height */
+    background-color: #f0f0f0;
+    border: 3px solid #000;
+    /* Example border */
+    overflow: hidden;
+    border-radius: 12px;
+    /* Rounded corners */
+    margin-left: 33vw;
+    margin-top: -19vw;
 }
 
-#built-dif {
+#custom-hover-video {
     width: 100%;
-    ;
-}
-
-#preview {
-    background-color: #55342B;
-    width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: transform 0.3s ease, opacity 0.3s ease;
     position: absolute;
-
 }
 
-#hi {
-    text-align: center;
-    font-family: font-2;
-    font-size: larger;
+.custom-video-container:hover #custom-hover-video {
+    opacity: 1;
+    transform: scale(1.02);
+    /* Slight zoom effect */
 }
 
-#pleidas {
-    width: 10vw;
+.new-video-container {
+    position: relative;
+    width: 600px;
+    /* Example width */
+    height: 350px;
+    /* Example height */
+    background-color: #f0f0f0;
+    border: 3px solid #000;
+    /* Example border */
+    overflow: hidden;
+    border-radius: 12px;
+    /* Rounded corners */
+    margin-left: 66vw;
+    margin-top: -19vw; 
 }
 
+#new-hover-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    position: absolute;
+}
+ 
+
+.new-video-container:hover #new-hover-video {
+    opacity: 1;
+    transform: scale(1.02);
+    /* Slight zoom effect */
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+#t{
+    background-color: #000;
+    height: 50vw;
+    margin-top: 20vw;
+}
+
+#open{
+    margin-top: 0vw;
+    width: 60vw;
+    height: 40vw;
+    margin-left: 20vw;
+}
+
+#year{
+   color: #f0f0f0;
+}
+
+#ki{
+    background-color: grey;
+    margin-left: 20vw;
+    margin-right: 18.3vw;
+}
+
+#kin{
+    background-color: grey;
+    margin-left: 20vw;
+    margin-right: 18.3vw;
+}
+
+#years{
+    color: #f0f0f0;
+ }
